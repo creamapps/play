@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 300px;
+}
+
+.box {
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  transition: width ease-in-out 900ms;
+}
+
+.one {
+  background: #e74c3c;
+}
+
+.two {
+  background: #e67e22;
+}
+
+.three {
+  background: #f1c40f;
+}
+
+.four {
+  background: #2ecc71;
+}
+
+.five {
+  background: #3498db;
+}
+
+.six {
+  background: #9b59b6;
+}
+
+button#toggle {
+  background: #fff;
+  border: 2px solid #2875f5;
+  padding: 20px 40px;
+  color: #2875f5;
+  font-size: 1.5em;
+  border-radius: 15px;
+  opacity: 0.7;
+  width: 250px;
+  height: 75px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+button#toggle:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity ease-in-out 200ms;
+  background: #2875f5;
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+  
