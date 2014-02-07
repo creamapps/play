@@ -1,5 +1,5 @@
-(function() {
-
+var MODULE = (function() {
+  
   function makeSmall(el) {
     var style = el.style;
     var currentWidth = window.getComputedStyle(el).width;
@@ -7,7 +7,6 @@
       ? '16.66%'
       : 0;
   }
-  
 
   var el = document.getElementById('toggle');
 
@@ -18,4 +17,5 @@
     }
   });
 
+  return el;
 })();

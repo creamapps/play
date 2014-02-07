@@ -13,7 +13,7 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0;
-  transition: width ease-in-out 900ms;
+  transition: width ease-in-out 400ms;
 }
 
 .one {
@@ -42,7 +42,7 @@ body {
 
 button#toggle {
   background: #fff;
-  border: 2px solid #2875f5;
+  border: 2px solid;
   padding: 20px 40px;
   color: #2875f5;
   font-size: 1.5em;
