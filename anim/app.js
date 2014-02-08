@@ -1,4 +1,4 @@
-var MODULE = (function() {
+(function() {
   
   function makeSmall(el) {
     var style = el.style;
